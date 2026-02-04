@@ -53,14 +53,7 @@ This makes recruiters instantly understand your project.
 
 ---
 
-## 👤 3️⃣ Add Author section (MUST)
-
-Paste at the **bottom of README**:
-
-```md
-## Author
-
-Sharath S  
+## 👤 3️⃣ Sharath S  
 Data Science & Deep Learning Enthusiast  
 LinkedIn: https://www.linkedin.com/in/sharath-s-19b57223a
 
