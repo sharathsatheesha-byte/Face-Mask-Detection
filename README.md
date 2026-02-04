@@ -16,46 +16,9 @@ The project is deployed as a Flask web application for real-time image predictio
 - Flask
 - HTML, CSS
 
+## Project Structure
 ## How to Run
-1. Install dependencies  
+
+1. Install dependencies
    ```bash
    pip install -r requirements.txt
-
-2. Run the Flask application
-   ```bash
-   python app.py
-
-http://127.0.0.1:5000/
-
-
----
-
-## 📁 2️⃣ Add Project Structure (Recommended)
-
-Paste this **after Technologies Used**:
-
-```md
-## Project Structure
-
-Face-Mask-Detection/
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── LICENSE
-├── templates/
-│   └── index.html
-└── static/
-    └── style.css
-
-
-This makes recruiters instantly understand your project.
-
----
-
-## 👤 3️⃣ Sharath S  
-Data Science & Deep Learning Enthusiast  
-LinkedIn: https://www.linkedin.com/in/sharath-s-19b57223a
-
-
-
