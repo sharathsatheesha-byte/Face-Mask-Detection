@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mask Detector</title>
+
+    <!-- Correct way to load CSS in Flask -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+    <h2>Mask Detector</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if img_path %}
+        <img src="{{ img_path }}">
+        <h3>{{ result }}</h3>
+    {% endif %}
+</body>
+</html>
